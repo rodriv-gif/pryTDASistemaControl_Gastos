@@ -49,7 +49,8 @@ public class ControlGastos {
 
         saldoInicial = saldo;
     }   
-    //metodo para registrar un movimiento
+    //metodo para registrar un ingreso o gasto,
+    // verificando que exista espacio y saldo suficiente.
     public void registrarMovimiento(Movimientos movimiento) {
         //primero validamos si hay espacio
         if (cantidad >= this.movimiento.length) {
@@ -104,7 +105,8 @@ public class ControlGastos {
 
         return false;
     }
-    
+    // Método para actualizar un movimiento existente,
+    // validando que el nuevo gasto no exceda el saldo.
     public boolean actualizarMovimiento(String descripcion, Movimientos nuevo) {
 
         for (int i = 0; i < cantidad; i++) {
@@ -167,7 +169,8 @@ public class ControlGastos {
 
         return total;
     }
-    //metodo para calcular el saldo
+    // Método para calcular el saldo disponible,
+    // sumando ingresos y restando gastos al saldo inicial.
     public float calcularSaldo(){
         return saldoInicial + calcularTotalIngresos() - calcularTotalGastos();
     }

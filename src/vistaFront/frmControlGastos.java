@@ -2,6 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
+/*
+ * Sistema: Control de Gastos Personales
+ * Autor: Rodrigo Hernandez Perez
+ * Descripción: Formulario principal para registrar,
+ * buscar, actualizar y eliminar ingresos y gastos.
+ */
 package vistaFront;
 
 import controlGastos.ControlGastos;

@@ -8,6 +8,7 @@ package modelo;
  *
  * @author ligoh
  */
+//clase hija que obtiene los metodos de movimientos
 public class Gastos extends Movimientos {
     public Gastos(String descripcion, float cantidad, String fecha) {
         super(descripcion, cantidad, fecha);
