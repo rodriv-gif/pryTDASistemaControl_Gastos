@@ -210,7 +210,7 @@ public class frmControlGastos extends javax.swing.JFrame {
 
         lblSaldoInicial.setText("Agregar Saldo Inicial");
 
-        btnSaldoInicial.setBackground(new java.awt.Color(102, 102, 102));
+        btnSaldoInicial.setBackground(new java.awt.Color(204, 204, 204));
         btnSaldoInicial.setText("Establecer Saldo Inicial");
         btnSaldoInicial.addActionListener(this::btnSaldoInicialActionPerformed);
 
